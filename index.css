@@ -1,0 +1,54 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url('../man.jpg');
+    background-repeat: no-repeat;
+}
+#bigBox
+{
+    width: 400px;
+    height: 300px;
+    margin: 200px auto 0;
+    padding: 20px 50px;
+    background-color: rgba(255, 255, 255, 0.36);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#bigBox h1
+{
+    color: #282828;
+}
+
+#bigBox .inputBox
+{
+    margin-top: 50px;
+}
+
+#bigBox .inputBox .inputText
+{
+    margin-top: 10px;
+    /*border-color: white;*/
+}
+
+#bigBox .inputBox .inputText input
+{
+    border: 0;
+    padding: 10px 10px;
+    border-bottom:1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+#bigBox .inputBox .inputButton
+{
+    border: 0;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    color: #1d1b1b;
+    background-image: linear-gradient(to right, #5ee7df 0%, #b490ca 50%);
+}
